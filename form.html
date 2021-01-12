@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <body style="background-color: rgb(38, 94, 214);">
+        <fieldset>
+            <legend>Your details</legend>
+            <label> Name:
+            <input type="text" name="Name" ></label><br />
+            <label>Email:
+            <input type="text" name="Email"></label><br />
+        </fieldset>
+        <fieldset>
+            <legend>Your reviews:</legend>
+            <label for="hear_about"> <p>How did you hear about us?</p>
+            <select name="refeerer" id="hear_about">
+                <option value="Google">Google</option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="School">School</option>
+                <option value="Friends">Friends</option>
+            </select>
+            </label>
+            <p>Would you visit again?</p>
+            <input id="yes" type="radio" value="Yes" name="conversion" checked="checked">
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" value="No" name="conversion">
+            <label for="no">No</label>
+            <input id="maybe" type="radio" value="Maybe" name="conversion">
+            <label for="yes">Maybe</label><br />
+
+            <p>Comments: <br />
+                <textarea rows="4" cols="40"> </textarea></p><br />
+
+            <label for="sign up"><input type="checkbox" name="sign up"
+                checked="checked" value="Sign me up for email updates">
+                Sign me up for email updates</label><br />
+            <input type="submit" value="Submit review">
+        </fieldset>
+        </body>
+    </head>
+</html>
